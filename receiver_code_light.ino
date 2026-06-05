@@ -6,7 +6,7 @@ Servo monServo;
 Servo monServo_2;
 int servo_position = 0;
 int servo_position_2 = 0;
-RF24 radio(7, 8); // 
+RF24 radio(7, 8); 
 const byte addresses[][6] = {"00001", "00002"};
 boolean buttonState = 0;
 boolean buttonState_2 = 0;
