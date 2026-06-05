@@ -37,25 +37,25 @@ void loop() {
   radio.read(&buttonState, sizeof(buttonState));;
   
   if (buttonState == HIGH) {
-    servo_position = 70; // angle to change if you need to/ angle à modifier si vous avez besoin
+    servo_position = 70; // angle to change if you need to / angle à modifier si vous avez besoin
     monServo.write(servo_position);
     delay(2000);
     
   }
   if (buttonState == LOW) { 
-    servo_position = 180; // angle to change if you need to/ angle à modifier si vous avez besoin
+    servo_position = 180; // angle to change if you need to / angle à modifier si vous avez besoin
     monServo.write(servo_position);
   }
   radio.read(&buttonState_2, sizeof(buttonState_2));;
   if (buttonState_2 == HIGH) {
-    servo_position_2 = 150; // angle to change if you need to/ angle à modifier si vous avez besoin
+    servo_position_2 = 150; // angle to change if you need to / angle à modifier si vous avez besoin
     monServo_2.write(servo_position_2);
     delay(2000);
 
 
   }
   if (buttonState_2 == LOW) { 
-    servo_position_2 = 0 ; // angle to change if you need to/ angle à modifier si vous avez besoin
+    servo_position_2 = 0 ; // angle to change if you need to / angle à modifier si vous avez besoin
     monServo_2.write(servo_position_2);
   }
   Serial.println(buttonState);
