@@ -28,11 +28,12 @@ void loop() {
   delay(5);
   buttonState = digitalRead(button);
   buttonState_2 = digitalRead(button_2);
+   // This code was used for debugging the buttons
+  // Ces lignes ont été utilisé pour le déboggage des bouttons
   Serial.println(buttonState);
   Serial.println(buttonState_2);
   delay(100);
   radio.startListening();
-  
   int angleV = 0;
   radio.read(&angleV, sizeof(angleV));
   myServo.write(angleV);
