@@ -24,6 +24,8 @@ The STL file posted might not work on every light switch since the shape and siz
 5. Adjust the initial and final angles of the servo motors since the angles required to turn of a switch could vary from house to house (the code to modify is indicated on the c++ file).
 ### Important Info :
 This is a prototype and might not work if the light switches require more strenght than the one that a servo motor can produce. Changing the angles could in some cases fix the problem.
+### Credit for the code :
+A part of the code for the NRF 24L01 was taken a modified from the channel called "How To Mehatronics".
 ## Français
 ### Materiel :
 - NRF 24LO1
@@ -49,3 +51,5 @@ Le fichier STL ne marche pas sur tout les interupters plus que les formes et tai
 7. Ajuster les angles initiaux et finaux du servomotteurs plus que les angles requis pour éteindre lumière peut varier de maison en maison (le code pour le modifier est indiqué sur le fichiers c++).
 ### Info Importante :
 C'est un prototype qui peut ne pas marcher parfaitement sur certains interupteurs s'il a besion de plus de force que possède les servomotteurs. Changer les angles dans quelques cas peut arranger le problème.
+### Crédits pour le code :
+Une part du code pour le modules NRF 24L01 est prise de la chaîne "How To Mechatronics" sur youtube et a été modifié pour mon projet
