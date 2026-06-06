@@ -3,6 +3,8 @@
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
+// Mise en place des bouttons and des variables utilisée
+// Setup of the servo buttons and used variables 
 #define button 4
 #define button_2 3
 RF24 radio(7, 8); 
