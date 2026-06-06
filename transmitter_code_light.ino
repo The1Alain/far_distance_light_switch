@@ -23,6 +23,8 @@ void setup() {
 }
 
 void loop() {
+  // Initialisation des composents utilisés
+  // Initialisation of the components
   delay(5);
   buttonState = digitalRead(button);
   buttonState_2 = digitalRead(button_2);
@@ -36,9 +38,13 @@ void loop() {
   myServo.write(angleV);
   delay(5);
   radio.stopListening();
+  // Lit les états des bouttons
+  // Reads the states of the buttons
   buttonState = digitalRead(button);
   buttonState_2 = digitalRead(button_2);
   delay(100);
+  // Envoie les état des bouttons à l'autre module NRF 24L01
+  // Send the states of the buttons to another NRF 24L01 module
   radio.write(&buttonState, sizeof(buttonState));
   radio.write(&buttonState_2, sizeof(buttonState_2));
 }
