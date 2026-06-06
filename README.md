@@ -8,7 +8,7 @@
 - Mini breadboard
 - 14 male to female wires
 - 14 male to male wires
-- 2 10 K resistors
+- 2 10 KΩ resistors
 - 2 buttons
 - Double sided tape
 - 2 servo motors
@@ -35,7 +35,7 @@ A part of the code for the NRF 24L01 was taken a modified from the channel calle
 - Mini plaque d'essai
 - 14 cables male à femelle
 - 14 cables male à male 
-- 2 résistances 10 K 
+- 2 résistances 10 KΩ 
 - 2 bouttons
 - Ruban adhésif double face
 - 2 servomoteur
