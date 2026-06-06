@@ -1,10 +1,11 @@
+// Inclusion des bibliotèques requises.
+// Inclusion of the required libraries.
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
 #define button 4
 #define button_2 3
-
-RF24 radio(7, 8); // CE, CSN
+RF24 radio(7, 8); 
 const byte addresses[][6] = {"00001", "00002"};
 Servo myServo;
 boolean buttonState = 0;
